@@ -1,1 +1,1 @@
-# 🐄 CanaaLeite: Gestão Inteligente para Pecuária Leiteira
+# CanaaLeite: Gestão Inteligente para Pecuária Leiteira
