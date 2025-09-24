@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CanaãLeite: Gestão Inteligente para Pecuária Leiteira</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+            line-height: 1.6;
+            color: #24292e;
+            max-width: 980px;
+            margin: 0 auto;
+            padding: 45px;
+            background-color: #fff;
+        }
+        h1, h2, h3 {
+            border-bottom: 1px solid #eaecef;
+            padding-bottom: .3em;
+            margin-top: 24px;
+            margin-bottom: 16px;
+            font-weight: 600;
+        }
+        h1 { font-size: 2em; }
+        h2 { font-size: 1.5em; }
+        a {
+            color: #0366d6;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 16px;
+            margin-bottom: 16px;
+        }
+        td {
+            border: 1px solid #dfe2e5;
+            padding: 12px;
+            vertical-align: top;
+        }
+        .main-logo {
+            display: block;
+            margin: 0 auto 20px auto;
+            width: 150px;
+            height: 150px;
+        }
+        .desenvolvido-por {
+            text-align: center;
+            margin-top: 40px;
+        }
+        .desenvolvido-por img {
+            border-radius: 50%;
+        }
+        .desenvolvido-por b {
+            font-size: 1.2em;
+        }
+        .footer-text {
+            text-align: center;
+            font-style: italic;
+            color: #586069;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>🐄 CanaãLeite: Gestão Inteligente para Pecuária Leiteira</h1>
+
+    <img src="app/src/main/res/mipmap-xxxhdpi/ic_launcher_sem_texto.png" alt="Logo do App" class="main-logo">
+
+    <p>O <strong>CanaaLeite</strong> é um aplicativo Android nativo, desenvolvido em Kotlin, que revoluciona a gestão de fazendas de gado de leite. Ele atua como um assistente completo para o produtor rural, integrando controles de rebanho, produção, finanças e o ciclo reprodutivo em uma única plataforma poderosa e fácil de usar.</p>
+
+    <h2>✨ O Que Torna o CanaãLeite Inovador?</h2>
+    <p>O grande diferencial do CanaaLeite é funcionar como um <strong>consultor veterinário virtual</strong> para o produtor que não tem acesso constante a um profissional. O app guia o usuário através do complexo ciclo reprodutivo das vacas, com o objetivo de alcançar a meta ideal de um bezerro por vaca por ano.</p>
+    <ul>
+        <li><strong>Diagnóstico de Prenhez sem Veterinário:</strong> O sistema utiliza um método inovador baseado na observação do ciclo estral (cio). Ele alerta o produtor para verificar a ausência de cio em 21 e 42 dias após a cobertura, permitindo uma confirmação de prenhez com alta probabilidade, sem a necessidade de exames caros ou da presença de um veterinário.</li>
+        <li><strong>Sistema de Alertas Proativo:</strong> O app gera um mural de alertas inteligentes e coloridos (🟢 <strong>Hoje</strong>, 🟡 <strong>Próximos</strong>, 🔴 <strong>Atrasados</strong>) para todas as tarefas críticas do ciclo reprodutivo, como previsão de cio, data de secagem e previsão de parto.</li>
+        <li><strong>Gestão 360° da Fazenda:</strong> Além do controle reprodutivo, o CanaaLeite integra:
+            <ul>
+                <li><strong>Controle Financeiro:</strong> Gerencie despesas e receitas com dashboards visuais.</li>
+                <li><strong>Gestão de Estoque:</strong> Controle a produção de leite e a fabricação de derivados como queijos e iogurtes.</li>
+                <li><strong>Controle de Vendas:</strong> Registre vendas de leite e outros produtos, com gestão de clientes.</li>
+            </ul>
+        </li>
+        <li><strong>Funcionalidade Offline-First:</strong> O aplicativo é 100% funcional sem conexão com a internet. Todos os dados são salvos localmente e sincronizados automaticamente com a nuvem (Firebase) assim que a conexão é restabelecida, garantindo que nenhuma informação seja perdida.</li>
+    </ul>
+
+    <h2>🖼️ Telas do Aplicativo</h2>
+    <table>
+      <tr>
+        <td align="center">
+          <img src="docs/images/tela_home.png" alt="Tela Principal" width="250"/>
+          <br>
+          <sub><b>Tela Principal (Home)</b></sub>
+        </td>
+        <td align="center">
+          <img src="docs/images/tela_dashboard.png" alt="Dashboard Financeiro" width="250"/>
+          <br>
+          <sub><b>Dashboard Financeiro</b></sub>
+        </td>
+      </tr>
+      <tr>
+        <td align="center">
+          <img src="docs/images/tela_mural_de_alertas.png" alt="Mural de Alertas" width="250"/>
+          <br>
+          <sub><b>Mural de Alertas Inteligentes</b></sub>
+        </td>
+        <td align="center">
+          <img src="docs/images/gaveta_de_notificacoes_com_alertas.png" alt="Notificações de Alertas" width="250"/>
+          <br>
+          <sub><b>Notificações de Alertas</b></sub>
+        </td>
+      </tr>
+      <tr>
+        <td align="center">
+          <img src="docs/images/tela_rebanho_animal.png" alt="Lista de Animais" width="250"/>
+          <br>
+          <sub><b>Lista de Animais do Rebanho</b></sub>
+        </td>
+        <td align="center">
+          <img src="docs/images/tela_detalhes_do_animal.png" alt="Detalhes do Animal" width="250"/>
+          <br>
+          <sub><b>Detalhes do Animal</b></sub>
+        </td>
+      </tr>
+      <tr>
+        <td align="center">
+          <img src="docs/images/tela_com_calendario-customizado_ao_fundo_gerenciamento_de_paricao.png" alt="Gerenciamento de Parição" width="250"/>
+          <br>
+          <sub><b>Gerenciamento de Parição</b></sub>
+        </td>
+        <td align="center">
+          <img src="docs/images/tela_coletas_de_leite.png" alt="Controle de Coletas de Leite" width="250"/>
+          <br>
+          <sub><b>Controle de Coletas de Leite</b></sub>
+        </td>
+      </tr>
+      <tr>
+        <td align="center">
+          <img src="docs/images/tela_produtos.png" alt="Gestão de Produtos e Estoque" width="250"/>
+          <br>
+          <sub><b>Gestão de Produtos e Estoque</b></sub>
+        </td>
+        <td align="center">
+          <img src="docs/images/tela_movimentacoes_financeira_despesas_e_receita.png" alt="Movimentações Financeiras" width="250"/>
+          <br>
+          <sub><b>Movimentações Financeiras</b></sub>
+        </td>
+      </tr>
+    </table>
+
+    <h2>🛠️ Tecnologias e Arquitetura</h2>
+    <ul>
+        <li><strong>Linguagem:</strong> <strong><a href="https://kotlinlang.org/">Kotlin</a></strong> - A linguagem oficial para o desenvolvimento Android.</li>
+        <li><strong>Arquitetura:</strong>
+            <ul>
+                <li><strong><a href="https://developer.android.com/topic/architecture?hl=pt-br">Clean Architecture</a>:</strong> Separação clara das responsabilidades em camadas (Data, Domain, Presentation).</li>
+                <li><strong>MVVM (Model-View-ViewModel):</strong> Padrão de arquitetura que promove a separação entre a lógica de apresentação e a UI.</li>
+            </ul>
+        </li>
+        <li><strong>Jetpack Components:</strong>
+            <ul>
+                <li><strong><a href="https://developer.android.com/training/data-storage/room">Room</a>:</strong> Para persistência de dados local.</li>
+                <li><strong><a href="https://developer.android.com/topic/libraries/architecture/viewmodel">ViewModel</a>:</strong> Para gerenciar o estado da UI.</li>
+                <li><strong><a href="https://developer.android.com/kotlin/flow">Flow</a> e <a href="https://developer.android.com/kotlin/coroutines?hl=pt-br#kts">Coroutines</a>:</strong> Para programação assíncrona e reativa.</li>
+                <li><strong><a href="https://dagger.dev/hilt/">Hilt</a>:</strong> Para injeção de dependência.</li>
+                <li><strong><a href="https://developer.android.com/guide/navigation">Navigation Component</a>:</strong> Para gerenciar a navegação.</li>
+                <li><strong><a href="https://developer.android.com/topic/libraries/architecture/workmanager">WorkManager</a>:</strong> Para agendar tarefas em segundo plano.</li>
+            </ul>
+        </li>
+        <li><strong>UI (Interface do Usuário):</strong>
+            <ul>
+                <li><strong><a href="https://developer.android.com/topic/libraries/view-binding?hl=pt-br#kts">ViewBinding</a>:</strong> Para acesso seguro às views.</li>
+                <li><strong>Material Design:</strong> Para uma interface moderna e intuitiva.</li>
+                <li><strong><a href="https://github.com/PhilJay/MPAndroidChart">MPAndroidChart</a>:</strong> Para a criação de dashboards e gráficos.</li>
+            </ul>
+        </li>
+        <li><strong>Backend e Sincronização:</strong>
+            <ul>
+                <li><strong><a href="https://firebase.google.com/">Firebase</a>:</strong>
+                    <ul>
+                        <li><strong><a href="https://firebase.google.com/docs/firestore?hl=pt-br">Firestore</a>:</strong> Banco de dados NoSQL na nuvem.</li>
+                        <li><strong><a href="https://firebase.google.com/docs/auth/android/start?hl=pt-br">Authentication</a>:</strong> Para gerenciar a autenticação de usuários.</li>
+                        <li><strong><a href="https://firebase.google.com/docs/cloud-messaging?hl=pt-br">Cloud Messaging</a>:</strong> Para o envio de notificações push.</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+    </ul>
+
+    <h2>🚀 Próximos Passos e Inovações Futuras</h2>
+    <ul>
+        <li><strong>Controle Genético e de Linhagem:</strong> Rastreamento de parentesco para auxiliar na seleção genética do rebanho.</li>
+        <li><strong>Gerenciamento por Lotes:</strong> Funcionalidade para agrupar animais em lotes, facilitando a gestão.</li>
+        <li><strong>Integrações Externas e Geolocalização:</strong> Integração com APIs de Clima/Tempo e uso de GPS/Mapas para otimizar a logística.</li>
+        <li><strong>Modernização da Interface:</strong> Migração gradual para <strong><a href="https://developer.android.com/jetpack/compose">Jetpack Compose</a></strong>.</li>
+        <li><strong>Estrutura de Dados Colaborativa:</strong> Refatoração do Firestore para uma estrutura baseada em "Organização", permitindo que múltiplos usuários gerenciem a mesma fazenda.</li>
+    </ul>
+
+    <hr>
+
+    <div class="desenvolvido-por">
+        <a href="https://www.linkedin.com/in/danilloteles/" target="_blank">
+            <img src="docs/images/profile.jpg" width="100px" alt="Foto de Danillo Teles"/>
+        </a>
+        <br>
+        <b>Danillo Teles</b>
+        <br>
+        <a href="https://www.linkedin.com/in/danilloteles/" target="_blank">
+            <img src="https://img.shields.io/badge/LinkedIn-Danillo%20Teles-blue?style=for-the-badge&logo=linkedin" alt="LinkedIn Badge"/>
+        </a>
+    </div>
+
+    <p class="footer-text"><em>Projeto desenvolvido com foco em trazer tecnologia de ponta para o agronegócio, capacitando o pequeno e médio produtor rural.</em></p>
+
+</body>
+</html>
